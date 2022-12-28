@@ -1,0 +1,5 @@
+/Users/leo/Documents/GitHub/RayTraycing/build/CMakeFiles/RayTracing.dir
+/Users/leo/Documents/GitHub/RayTraycing/build/CMakeFiles/package.dir
+/Users/leo/Documents/GitHub/RayTraycing/build/CMakeFiles/package_source.dir
+/Users/leo/Documents/GitHub/RayTraycing/build/CMakeFiles/edit_cache.dir
+/Users/leo/Documents/GitHub/RayTraycing/build/CMakeFiles/rebuild_cache.dir
