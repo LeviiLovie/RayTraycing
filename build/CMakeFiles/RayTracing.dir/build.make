@@ -69,44 +69,44 @@ include CMakeFiles/RayTracing.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/RayTracing.dir/flags.make
 
-CMakeFiles/RayTracing.dir/main.cpp.o: CMakeFiles/RayTracing.dir/flags.make
-CMakeFiles/RayTracing.dir/main.cpp.o: /Users/leo/Documents/GitHub/RayTraycing/main.cpp
-CMakeFiles/RayTracing.dir/main.cpp.o: CMakeFiles/RayTracing.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/leo/Documents/GitHub/RayTraycing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/RayTracing.dir/main.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RayTracing.dir/main.cpp.o -MF CMakeFiles/RayTracing.dir/main.cpp.o.d -o CMakeFiles/RayTracing.dir/main.cpp.o -c /Users/leo/Documents/GitHub/RayTraycing/main.cpp
+CMakeFiles/RayTracing.dir/src/main.cpp.o: CMakeFiles/RayTracing.dir/flags.make
+CMakeFiles/RayTracing.dir/src/main.cpp.o: /Users/leo/Documents/GitHub/RayTraycing/src/main.cpp
+CMakeFiles/RayTracing.dir/src/main.cpp.o: CMakeFiles/RayTracing.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/leo/Documents/GitHub/RayTraycing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/RayTracing.dir/src/main.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RayTracing.dir/src/main.cpp.o -MF CMakeFiles/RayTracing.dir/src/main.cpp.o.d -o CMakeFiles/RayTracing.dir/src/main.cpp.o -c /Users/leo/Documents/GitHub/RayTraycing/src/main.cpp
 
-CMakeFiles/RayTracing.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RayTracing.dir/main.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/leo/Documents/GitHub/RayTraycing/main.cpp > CMakeFiles/RayTracing.dir/main.cpp.i
+CMakeFiles/RayTracing.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RayTracing.dir/src/main.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/leo/Documents/GitHub/RayTraycing/src/main.cpp > CMakeFiles/RayTracing.dir/src/main.cpp.i
 
-CMakeFiles/RayTracing.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RayTracing.dir/main.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/leo/Documents/GitHub/RayTraycing/main.cpp -o CMakeFiles/RayTracing.dir/main.cpp.s
+CMakeFiles/RayTracing.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RayTracing.dir/src/main.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/leo/Documents/GitHub/RayTraycing/src/main.cpp -o CMakeFiles/RayTracing.dir/src/main.cpp.s
 
-CMakeFiles/RayTracing.dir/engine.cpp.o: CMakeFiles/RayTracing.dir/flags.make
-CMakeFiles/RayTracing.dir/engine.cpp.o: /Users/leo/Documents/GitHub/RayTraycing/engine.cpp
-CMakeFiles/RayTracing.dir/engine.cpp.o: CMakeFiles/RayTracing.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/leo/Documents/GitHub/RayTraycing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/RayTracing.dir/engine.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RayTracing.dir/engine.cpp.o -MF CMakeFiles/RayTracing.dir/engine.cpp.o.d -o CMakeFiles/RayTracing.dir/engine.cpp.o -c /Users/leo/Documents/GitHub/RayTraycing/engine.cpp
+CMakeFiles/RayTracing.dir/src/engine.cpp.o: CMakeFiles/RayTracing.dir/flags.make
+CMakeFiles/RayTracing.dir/src/engine.cpp.o: /Users/leo/Documents/GitHub/RayTraycing/src/engine.cpp
+CMakeFiles/RayTracing.dir/src/engine.cpp.o: CMakeFiles/RayTracing.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/leo/Documents/GitHub/RayTraycing/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/RayTracing.dir/src/engine.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RayTracing.dir/src/engine.cpp.o -MF CMakeFiles/RayTracing.dir/src/engine.cpp.o.d -o CMakeFiles/RayTracing.dir/src/engine.cpp.o -c /Users/leo/Documents/GitHub/RayTraycing/src/engine.cpp
 
-CMakeFiles/RayTracing.dir/engine.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RayTracing.dir/engine.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/leo/Documents/GitHub/RayTraycing/engine.cpp > CMakeFiles/RayTracing.dir/engine.cpp.i
+CMakeFiles/RayTracing.dir/src/engine.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RayTracing.dir/src/engine.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/leo/Documents/GitHub/RayTraycing/src/engine.cpp > CMakeFiles/RayTracing.dir/src/engine.cpp.i
 
-CMakeFiles/RayTracing.dir/engine.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RayTracing.dir/engine.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/leo/Documents/GitHub/RayTraycing/engine.cpp -o CMakeFiles/RayTracing.dir/engine.cpp.s
+CMakeFiles/RayTracing.dir/src/engine.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RayTracing.dir/src/engine.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/leo/Documents/GitHub/RayTraycing/src/engine.cpp -o CMakeFiles/RayTracing.dir/src/engine.cpp.s
 
 # Object files for target RayTracing
 RayTracing_OBJECTS = \
-"CMakeFiles/RayTracing.dir/main.cpp.o" \
-"CMakeFiles/RayTracing.dir/engine.cpp.o"
+"CMakeFiles/RayTracing.dir/src/main.cpp.o" \
+"CMakeFiles/RayTracing.dir/src/engine.cpp.o"
 
 # External object files for target RayTracing
 RayTracing_EXTERNAL_OBJECTS =
 
-RayTracing: CMakeFiles/RayTracing.dir/main.cpp.o
-RayTracing: CMakeFiles/RayTracing.dir/engine.cpp.o
+RayTracing: CMakeFiles/RayTracing.dir/src/main.cpp.o
+RayTracing: CMakeFiles/RayTracing.dir/src/engine.cpp.o
 RayTracing: CMakeFiles/RayTracing.dir/build.make
 RayTracing: /usr/local/lib/libsfml-graphics.2.5.1.dylib
 RayTracing: /usr/local/lib/libsfml-audio.2.5.1.dylib

@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/RayTracing.dir/engine.cpp.o"
-  "CMakeFiles/RayTracing.dir/engine.cpp.o.d"
-  "CMakeFiles/RayTracing.dir/main.cpp.o"
-  "CMakeFiles/RayTracing.dir/main.cpp.o.d"
+  "CMakeFiles/RayTracing.dir/src/engine.cpp.o"
+  "CMakeFiles/RayTracing.dir/src/engine.cpp.o.d"
+  "CMakeFiles/RayTracing.dir/src/main.cpp.o"
+  "CMakeFiles/RayTracing.dir/src/main.cpp.o.d"
   "RayTracing"
   "RayTracing.pdb"
 )

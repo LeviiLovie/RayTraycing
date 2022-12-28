@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/leo/Documents/GitHub/RayTraycing/engine.cpp" "CMakeFiles/RayTracing.dir/engine.cpp.o" "gcc" "CMakeFiles/RayTracing.dir/engine.cpp.o.d"
-  "/Users/leo/Documents/GitHub/RayTraycing/main.cpp" "CMakeFiles/RayTracing.dir/main.cpp.o" "gcc" "CMakeFiles/RayTracing.dir/main.cpp.o.d"
+  "/Users/leo/Documents/GitHub/RayTraycing/src/engine.cpp" "CMakeFiles/RayTracing.dir/src/engine.cpp.o" "gcc" "CMakeFiles/RayTracing.dir/src/engine.cpp.o.d"
+  "/Users/leo/Documents/GitHub/RayTraycing/src/main.cpp" "CMakeFiles/RayTracing.dir/src/main.cpp.o" "gcc" "CMakeFiles/RayTracing.dir/src/main.cpp.o.d"
   )
 
 # Targets to which this target links.

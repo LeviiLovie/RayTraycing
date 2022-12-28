@@ -2,11 +2,11 @@ cmake_minimum_required(VERSION 3.10)
 project(RayTracing)
 
 set(SOURCES
-    main.cpp
-    engine.cpp
+    src/main.cpp
+    src/engine.cpp
 )
 set(HEADERS
-    engine.h
+    include/engine.h
 )
 
 include_directories(include)

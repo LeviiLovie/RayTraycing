@@ -149,53 +149,53 @@ RayTracing/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing.dir/build.make CMakeFiles/RayTracing.dir/build
 .PHONY : RayTracing/fast
 
-engine.o: engine.cpp.o
-.PHONY : engine.o
+src/engine.o: src/engine.cpp.o
+.PHONY : src/engine.o
 
 # target to build an object file
-engine.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing.dir/build.make CMakeFiles/RayTracing.dir/engine.cpp.o
-.PHONY : engine.cpp.o
+src/engine.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing.dir/build.make CMakeFiles/RayTracing.dir/src/engine.cpp.o
+.PHONY : src/engine.cpp.o
 
-engine.i: engine.cpp.i
-.PHONY : engine.i
+src/engine.i: src/engine.cpp.i
+.PHONY : src/engine.i
 
 # target to preprocess a source file
-engine.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing.dir/build.make CMakeFiles/RayTracing.dir/engine.cpp.i
-.PHONY : engine.cpp.i
+src/engine.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing.dir/build.make CMakeFiles/RayTracing.dir/src/engine.cpp.i
+.PHONY : src/engine.cpp.i
 
-engine.s: engine.cpp.s
-.PHONY : engine.s
+src/engine.s: src/engine.cpp.s
+.PHONY : src/engine.s
 
 # target to generate assembly for a file
-engine.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing.dir/build.make CMakeFiles/RayTracing.dir/engine.cpp.s
-.PHONY : engine.cpp.s
+src/engine.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing.dir/build.make CMakeFiles/RayTracing.dir/src/engine.cpp.s
+.PHONY : src/engine.cpp.s
 
-main.o: main.cpp.o
-.PHONY : main.o
+src/main.o: src/main.cpp.o
+.PHONY : src/main.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing.dir/build.make CMakeFiles/RayTracing.dir/main.cpp.o
-.PHONY : main.cpp.o
+src/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing.dir/build.make CMakeFiles/RayTracing.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
 
-main.i: main.cpp.i
-.PHONY : main.i
+src/main.i: src/main.cpp.i
+.PHONY : src/main.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing.dir/build.make CMakeFiles/RayTracing.dir/main.cpp.i
-.PHONY : main.cpp.i
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing.dir/build.make CMakeFiles/RayTracing.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+src/main.s: src/main.cpp.s
+.PHONY : src/main.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing.dir/build.make CMakeFiles/RayTracing.dir/main.cpp.s
-.PHONY : main.cpp.s
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing.dir/build.make CMakeFiles/RayTracing.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 # Help Target
 help:
@@ -208,12 +208,12 @@ help:
 	@echo "... package_source"
 	@echo "... rebuild_cache"
 	@echo "... RayTracing"
-	@echo "... engine.o"
-	@echo "... engine.i"
-	@echo "... engine.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... src/engine.o"
+	@echo "... src/engine.i"
+	@echo "... src/engine.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
 .PHONY : help
 
 
