@@ -1,5 +1,7 @@
 CMakeFiles/RayTracing.dir/src/engine.cpp.o: \
   /Users/leo/Documents/GitHub/RayTraycing/src/engine.cpp \
+  /Users/leo/Documents/GitHub/RayTraycing/include/engine.h \
+  /Users/leo/Documents/GitHub/RayTraycing/include/subEngine.h \
   /usr/local/include/SFML/Graphics.hpp \
   /usr/local/include/SFML/Window.hpp /usr/local/include/SFML/System.hpp \
   /usr/local/include/SFML/Config.hpp \
@@ -492,4 +494,7 @@ CMakeFiles/RayTracing.dir/src/engine.cpp.o: \
   /usr/local/include/SFML/Graphics/Sprite.hpp \
   /usr/local/include/SFML/Graphics/Text.hpp \
   /usr/local/include/SFML/Graphics/VertexBuffer.hpp \
-  /Users/leo/Documents/GitHub/RayTraycing/include/engine.h
+  /usr/local/include/GL/gl.h /usr/local/include/GL/glext.h \
+  /usr/local/include/KHR/khrplatform.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/iostream \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/istream

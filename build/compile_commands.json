@@ -1,12 +1,22 @@
 [
 {
   "directory": "/Users/leo/Documents/GitHub/RayTraycing/build",
-  "command": "/usr/bin/clang++  -I/Users/leo/Documents/GitHub/RayTraycing/include -isystem /usr/local/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -mmacosx-version-min=12.6 -o CMakeFiles/RayTracing.dir/src/main.cpp.o -c /Users/leo/Documents/GitHub/RayTraycing/src/main.cpp",
+  "command": "/usr/bin/clang++  -I/Users/leo/Documents/GitHub/RayTraycing/include -isystem /usr/local/include -iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/System/Library/Frameworks -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -mmacosx-version-min=12.6 -o CMakeFiles/RayTracing.dir/src/main.cpp.o -c /Users/leo/Documents/GitHub/RayTraycing/src/main.cpp",
   "file": "/Users/leo/Documents/GitHub/RayTraycing/src/main.cpp"
 },
 {
   "directory": "/Users/leo/Documents/GitHub/RayTraycing/build",
-  "command": "/usr/bin/clang++  -I/Users/leo/Documents/GitHub/RayTraycing/include -isystem /usr/local/include -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -mmacosx-version-min=12.6 -o CMakeFiles/RayTracing.dir/src/engine.cpp.o -c /Users/leo/Documents/GitHub/RayTraycing/src/engine.cpp",
+  "command": "/usr/bin/clang++  -I/Users/leo/Documents/GitHub/RayTraycing/include -isystem /usr/local/include -iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/System/Library/Frameworks -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -mmacosx-version-min=12.6 -o CMakeFiles/RayTracing.dir/src/engine.cpp.o -c /Users/leo/Documents/GitHub/RayTraycing/src/engine.cpp",
   "file": "/Users/leo/Documents/GitHub/RayTraycing/src/engine.cpp"
+},
+{
+  "directory": "/Users/leo/Documents/GitHub/RayTraycing/build",
+  "command": "/usr/bin/clang++  -I/Users/leo/Documents/GitHub/RayTraycing/include -isystem /usr/local/include -iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/System/Library/Frameworks -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -mmacosx-version-min=12.6 -o CMakeFiles/RayTracing.dir/src/subEngine.cpp.o -c /Users/leo/Documents/GitHub/RayTraycing/src/subEngine.cpp",
+  "file": "/Users/leo/Documents/GitHub/RayTraycing/src/subEngine.cpp"
+},
+{
+  "directory": "/Users/leo/Documents/GitHub/RayTraycing/build",
+  "command": "/usr/bin/clang++  -I/Users/leo/Documents/GitHub/RayTraycing/include -isystem /usr/local/include -iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/System/Library/Frameworks -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk -mmacosx-version-min=12.6 -o CMakeFiles/RayTracing.dir/src/data.cpp.o -c /Users/leo/Documents/GitHub/RayTraycing/src/data.cpp",
+  "file": "/Users/leo/Documents/GitHub/RayTraycing/src/data.cpp"
 }
 ]

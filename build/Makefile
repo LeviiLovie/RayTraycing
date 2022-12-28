@@ -149,6 +149,30 @@ RayTracing/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing.dir/build.make CMakeFiles/RayTracing.dir/build
 .PHONY : RayTracing/fast
 
+src/data.o: src/data.cpp.o
+.PHONY : src/data.o
+
+# target to build an object file
+src/data.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing.dir/build.make CMakeFiles/RayTracing.dir/src/data.cpp.o
+.PHONY : src/data.cpp.o
+
+src/data.i: src/data.cpp.i
+.PHONY : src/data.i
+
+# target to preprocess a source file
+src/data.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing.dir/build.make CMakeFiles/RayTracing.dir/src/data.cpp.i
+.PHONY : src/data.cpp.i
+
+src/data.s: src/data.cpp.s
+.PHONY : src/data.s
+
+# target to generate assembly for a file
+src/data.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing.dir/build.make CMakeFiles/RayTracing.dir/src/data.cpp.s
+.PHONY : src/data.cpp.s
+
 src/engine.o: src/engine.cpp.o
 .PHONY : src/engine.o
 
@@ -197,6 +221,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing.dir/build.make CMakeFiles/RayTracing.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/subEngine.o: src/subEngine.cpp.o
+.PHONY : src/subEngine.o
+
+# target to build an object file
+src/subEngine.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing.dir/build.make CMakeFiles/RayTracing.dir/src/subEngine.cpp.o
+.PHONY : src/subEngine.cpp.o
+
+src/subEngine.i: src/subEngine.cpp.i
+.PHONY : src/subEngine.i
+
+# target to preprocess a source file
+src/subEngine.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing.dir/build.make CMakeFiles/RayTracing.dir/src/subEngine.cpp.i
+.PHONY : src/subEngine.cpp.i
+
+src/subEngine.s: src/subEngine.cpp.s
+.PHONY : src/subEngine.s
+
+# target to generate assembly for a file
+src/subEngine.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RayTracing.dir/build.make CMakeFiles/RayTracing.dir/src/subEngine.cpp.s
+.PHONY : src/subEngine.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -208,12 +256,18 @@ help:
 	@echo "... package_source"
 	@echo "... rebuild_cache"
 	@echo "... RayTracing"
+	@echo "... src/data.o"
+	@echo "... src/data.i"
+	@echo "... src/data.s"
 	@echo "... src/engine.o"
 	@echo "... src/engine.i"
 	@echo "... src/engine.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/subEngine.o"
+	@echo "... src/subEngine.i"
+	@echo "... src/subEngine.s"
 .PHONY : help
 
 
