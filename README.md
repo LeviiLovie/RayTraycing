@@ -1,2 +1,2 @@
 # RayTraycing
-My tri to do ray tracing on C++
+My try to do ray tracing on C++
