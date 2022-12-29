@@ -492,4 +492,6 @@ CMakeFiles/RayTracing.dir/src/engine.cpp.o: \
   /usr/local/include/SFML/Graphics/Sprite.hpp \
   /usr/local/include/SFML/Graphics/Text.hpp \
   /usr/local/include/SFML/Graphics/VertexBuffer.hpp \
+  /usr/local/include/GL/gl.h /usr/local/include/GL/glext.h \
+  /usr/local/include/KHR/khrplatform.h \
   /Users/leo/Documents/GitHub/RayTraycing/include/engine.h

@@ -495,6 +495,9 @@ CMakeFiles/RayTracing.dir/src/engine.cpp.o: /Users/leo/Documents/GitHub/RayTrayc
   /usr/local/include/SFML/Graphics/Sprite.hpp \
   /usr/local/include/SFML/Graphics/Text.hpp \
   /usr/local/include/SFML/Graphics/VertexBuffer.hpp \
+  /usr/local/include/GL/gl.h \
+  /usr/local/include/GL/glext.h \
+  /usr/local/include/KHR/khrplatform.h \
   /Users/leo/Documents/GitHub/RayTraycing/include/engine.h
 
 CMakeFiles/RayTracing.dir/src/main.cpp.o: /Users/leo/Documents/GitHub/RayTraycing/src/main.cpp \
@@ -504,6 +507,10 @@ CMakeFiles/RayTracing.dir/src/main.cpp.o: /Users/leo/Documents/GitHub/RayTraycin
 /Users/leo/Documents/GitHub/RayTraycing/src/main.cpp:
 
 /Users/leo/Documents/GitHub/RayTraycing/include/engine.h:
+
+/usr/local/include/KHR/khrplatform.h:
+
+/usr/local/include/GL/glext.h:
 
 /usr/local/include/SFML/Graphics/VertexBuffer.hpp:
 
@@ -820,6 +827,8 @@ CMakeFiles/RayTracing.dir/src/main.cpp.o: /Users/leo/Documents/GitHub/RayTraycin
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__algorithm/is_permutation.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__algorithm/copy_n.h:
+
+/usr/local/include/GL/gl.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__algorithm/lower_bound.h:
 
