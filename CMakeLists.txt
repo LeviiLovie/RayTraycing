@@ -4,9 +4,11 @@ project(RayTracing)
 set(SOURCES
     src/main.cpp
     src/engine.cpp
+    src/shapes.cpp
 )
 set(HEADERS
     include/engine.h
+    include/shapes.h
 )
 
 include_directories(${CMAKE_SOURCE_DIR}/include)

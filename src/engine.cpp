@@ -1,45 +1,15 @@
 #include <SFML/Graphics.hpp>
 #include <GL/gl.h>
 #include "engine.h"
+#include "shapes.h"
 using namespace sf;
 
+Color rayColor(255, 0, 0);
 Color circleColor(0, 0, 0);
 Color cameraColor(100, 100, 100);
 
 Vector3f circleData(750.0f, 250.0f, 100.0f);
 Vector3f cameraData(50.0f, 350.0f, 25.0f);
-
-class Ray {
-    public:
-        VertexArray ray;
-        Ray(Vector2f start, Vector2f end) {
-            ray = VertexArray(Lines, 2);
-            ray[0].position = start;
-            ray[1].position = end;
-            ray[0].color = Color::Red;
-            ray[1].color = Color::Red;
-        }
-};
-
-class Camera {
-    public:
-        CircleShape camera;
-        Camera(Vector2f position, float radius, Color color) {
-            camera = CircleShape(radius);
-            camera.setFillColor(color);
-            camera.setPosition(position);
-        }
-};
-
-class Circle {
-    public:
-        CircleShape circle;
-        Circle(Vector2f position, float radius, Color color) {
-            circle = CircleShape(radius);
-            circle.setFillColor(color);
-            circle.setPosition(position);
-        }
-};
 
 void engine() {
     // Create the main window and create a render texture
@@ -55,7 +25,7 @@ void engine() {
     const Time frameTime = milliseconds(1000 / 1);
 
     // Set up shapes and camera
-    Ray ray(Vector2f(cameraData.x + cameraData.z, cameraData.y + cameraData.z), Vector2f(100, 100));
+    Ray ray(Vector2f(cameraData.x + cameraData.z, cameraData.y + cameraData.z), Vector2f(100, 100), rayColor);
     Camera camera(Vector2f(cameraData.x, cameraData.y), cameraData.z, cameraColor);
     Circle circle(Vector2f(circleData.x, circleData.y), circleData.z, circleColor);
 
