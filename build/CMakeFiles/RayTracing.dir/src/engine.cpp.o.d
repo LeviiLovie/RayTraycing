@@ -494,5 +494,10 @@ CMakeFiles/RayTracing.dir/src/engine.cpp.o: \
   /usr/local/include/SFML/Graphics/VertexBuffer.hpp \
   /usr/local/include/GL/gl.h /usr/local/include/GL/glext.h \
   /usr/local/include/KHR/khrplatform.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/cmath \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/math.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/math.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/iostream \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/istream \
   /Users/leo/Documents/GitHub/RayTraycing/include/engine.h \
   /Users/leo/Documents/GitHub/RayTraycing/include/shapes.h

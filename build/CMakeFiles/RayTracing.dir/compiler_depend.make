@@ -498,6 +498,11 @@ CMakeFiles/RayTracing.dir/src/engine.cpp.o: /Users/leo/Documents/GitHub/RayTrayc
   /usr/local/include/GL/gl.h \
   /usr/local/include/GL/glext.h \
   /usr/local/include/KHR/khrplatform.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/cmath \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/math.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/math.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/iostream \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/istream \
   /Users/leo/Documents/GitHub/RayTraycing/include/engine.h \
   /Users/leo/Documents/GitHub/RayTraycing/include/shapes.h
 
@@ -1005,6 +1010,12 @@ CMakeFiles/RayTracing.dir/src/shapes.cpp.o: /Users/leo/Documents/GitHub/RayTrayc
 
 /Users/leo/Documents/GitHub/RayTraycing/include/engine.h:
 
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/istream:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/iostream:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/cmath:
+
 /usr/local/include/KHR/khrplatform.h:
 
 /usr/local/include/GL/glext.h:
@@ -1018,6 +1029,8 @@ CMakeFiles/RayTracing.dir/src/shapes.cpp.o: /Users/leo/Documents/GitHub/RayTrayc
 /usr/local/include/SFML/Graphics/RenderTexture.hpp:
 
 /usr/local/include/SFML/Graphics/RectangleShape.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/math.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__tree:
 
@@ -1826,6 +1839,8 @@ CMakeFiles/RayTracing.dir/src/shapes.cpp.o: /Users/leo/Documents/GitHub/RayTrayc
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/cstring:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__algorithm/search.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/math.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.0.sdk/usr/include/c++/v1/__algorithm/equal_range.h:
 

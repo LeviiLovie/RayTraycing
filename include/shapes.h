@@ -5,8 +5,9 @@ using namespace sf;
 
 class Ray {
     public:
-        VertexArray ray;
+        Ray();
         Ray(Vector2f start, Vector2f end, Color color);
+        VertexArray ray;
 };
 
 class Camera {
@@ -20,5 +21,4 @@ class Circle {
         CircleShape circle;
         Circle(Vector2f position, float radius, Color color);
 };
-
 #endif

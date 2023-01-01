@@ -1,6 +1,8 @@
 #include <SFML/Graphics.hpp>
 #include "shapes.h"
 
+Ray :: Ray() {}
+
 Ray :: Ray(Vector2f start, Vector2f end, Color color) {
     ray = VertexArray(Lines, 2);
     ray[0].position = start;
